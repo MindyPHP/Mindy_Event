@@ -12,7 +12,7 @@
  * @date 28/07/14.07.2014 13:40
  */
 
-namespace Mindy\Base;
+namespace Mindy\Event;
 
 use Aura\Signal\HandlerFactory;
 use Aura\Signal\Manager as AuraSignalManager;
