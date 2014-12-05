@@ -14,7 +14,6 @@
 
 namespace Mindy\Event;
 
-use Aura\Signal\HandlerFactory;
 use Aura\Signal\Manager as AuraSignalManager;
 use Aura\Signal\ResultCollection;
 use Aura\Signal\ResultFactory;
