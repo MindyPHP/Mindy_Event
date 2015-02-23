@@ -1,21 +1,14 @@
 <?php
 
-/**
- * All rights reserved.
- *
- * @author Falaleev Maxim
- * @email max@studio107.ru
- * @version 1.0
- * @company Studio107
- * @site http://studio107.ru
- * @date 05/12/14 12:25
- */
-
 namespace Mindy\Event;
 
 use Aura\Signal\Handler as BaseHandler;
 use Closure;
 
+/**
+ * Class Handler
+ * @package Mindy\Event
+ */
 class Handler extends BaseHandler
 {
     /**

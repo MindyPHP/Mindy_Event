@@ -1,16 +1,4 @@
 <?php
-/**
- *
- *
- * All rights reserved.
- *
- * @author Falaleev Maxim
- * @email max@studio107.ru
- * @version 1.0
- * @company Studio107
- * @site http://studio107.ru
- * @date 28/07/14.07.2014 13:40
- */
 
 namespace Mindy\Event;
 
@@ -18,6 +6,10 @@ use Aura\Signal\Manager as AuraSignalManager;
 use Aura\Signal\ResultCollection;
 use Aura\Signal\ResultFactory;
 
+/**
+ * Class EventManager
+ * @package Mindy\Event
+ */
 class EventManager extends AuraSignalManager
 {
     public function __construct()
