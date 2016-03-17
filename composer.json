@@ -1,8 +1,8 @@
 {
     "name": "mindy/event",
     "homepage": "https://github.com/studio107/Mindy_Event",
-    "version": "0.1",
-    "license": "MIT",
+    "version": "1.0",
+    "license": "BSD",
     "autoload": {
         "psr-4": {
             "Mindy\\Event\\": "src/Mindy/Event"
