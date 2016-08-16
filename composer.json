@@ -1,24 +1,34 @@
 {
-    "name": "mindy/event",
-    "homepage": "https://github.com/studio107/Mindy_Event",
-    "license": "BSD",
-    "autoload": {
-        "psr-4": {
-            "Mindy\\Event\\": "src/Mindy/Event"
-        }
-    },
-    "require": {
-        "php": ">=5.4",
-        "aura/signal": "1.0.4"
-    },
-    "require-dev": {},
-    "authors": [{
-        "name": "Maxim Falaleev",
-        "email": "max@studio107.ru",
-        "homepage": "http://studio107.ru",
-        "role": "Developer"
-    }],
-    "support": {
-        "issues": "https://github.com/studio107/Mindy_Event/issues?state=open"
+  "name": "mindy/event",
+  "type": "library",
+  "homepage": "https://github.com/MindyPHP/Mindy_Event",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Mindy\\Event\\": "src/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mindy\\Event\\Test\\": "test/"
+    }
+  },
+  "require": {
+    "php": ">=5.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "phpunit/php-code-coverage": "^4"
+  },
+  "authors": [
+    {
+      "name": "Maxim Falaleev",
+      "email": "max@studio107.ru",
+      "homepage": "http://studio107.ru",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/MindyPHP/Mindy_Event/issues?state=open"
+  }
 }
