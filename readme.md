@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/MindyPHP/Mindy_Event.svg?branch=master)](https://travis-ci.org/MindyPHP/Mindy_Event)
+
 # Измененная логика в сравнении с оригинальным Aura\Signal
 
 Если сигнал описан в массиве вида
